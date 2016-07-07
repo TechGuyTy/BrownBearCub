@@ -16,7 +16,7 @@
 <h1>Hibernate Example</h1>
 <jsp:useBean id="userInfo" class="darkcave.User">  
 </jsp:useBean>  
-<jsp:setProperty property="*" name="obj"/>
+<jsp:setProperty property="*" name="userInfo"/>
 <%  
 int i=DAO.addUser(userInfo); 
 if (i > 0)  
