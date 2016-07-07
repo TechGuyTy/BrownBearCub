@@ -38,8 +38,9 @@ public class User {
 		this.fullname = fullname;
 	}
 	
-	
-	
+	public void setId(int id) {
+		this.id= id;
+	}
 	
 	
 }
