@@ -64,13 +64,13 @@ public class DAO {
 		 hibernateSession.getTransaction().begin();
 		 
 		 //deprecated method & unsafe cast
-         List<User> users = hibernateSession.createQuery("FROM Product").list(); 
+         List<User> users = hibernateSession.createQuery("FROM User").list(); 
 		 
          // Commit transaction
          hibernateSession.getTransaction().commit();
       		 
       	 hibernateSession.close();  
       				    
-		return products;
+		return users;
 	}
 }
