@@ -70,7 +70,8 @@ public class DAO {
          hibernateSession.getTransaction().commit();
       		 
       	 hibernateSession.close();  
-      				    
+      	System.out.println(users.size());	    
 		return users;
+		
 	}
 }

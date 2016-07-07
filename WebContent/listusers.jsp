@@ -11,13 +11,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Hibernate Example</title>
+<title>List Users</title>
 </head>
 <body>
-<h1>Hibernate Example: Product Listing</h1>
-<%-- <jsp:useBean id="obj" class="com.guenther.hibexample.Product">   --%>
-<%-- </jsp:useBean>   --%>
-<%-- <jsp:setProperty property="*" name="obj"/> --%>
+<h1>Our Users Include:</h1>
+
 <table>
 <%  
 List<User> users = DAO.getAllUsers(); 
